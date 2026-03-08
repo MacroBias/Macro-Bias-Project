@@ -126,7 +126,7 @@ function AccessModal() {
       />
 
       {/* Modal */}
-      <div className="relative z-10 w-full max-w-[400px] animate-fade-in-up max-h-dvh overflow-y-auto">
+      <div className="relative z-10 w-full max-w-[400px] animate-fade-in-up max-h-dvh overflow-y-auto overflow-x-hidden [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         {/* Subtle glow behind modal */}
         <div className="absolute -inset-4 bg-[#3b82f6]/5 blur-3xl rounded-full" />
         
